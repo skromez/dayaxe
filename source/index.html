@@ -1,12 +1,129 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dayaxe</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-works!
-<script src="js/bundle.js"></script>
+  <header>
+    <div class="container container--wide header__container">
+      <div class="header__logo">
+        <a href="#">
+          <img src="https://placehold.it/140x32" alt="Logo">
+        </a>
+      </div>
+      <article class="weather">
+        <img class="weather__icon" src="https://placehold.it/20x20" alt="Weather Icon">
+        <ul class="weather__list">
+          <li class="weather__item">90 °F</li>
+          <li class="weather__item">Sunny</li>
+        </ul>
+      </article>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Help</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">How it works</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">For Partners</a></li>
+        </ul>
+      </nav>
+      <div class="user">
+        <img class="user__avatar" src="https://placehold.it/40x40" alt="User Avatar">
+        <p class="user__name">Roboin Bobin B.</p>
+      </div>
+    </div>
+  </header>
+  <section class="promo">
+    <div class="container container--medium promo__container">
+      <div class="promo__caption">
+        <h1>Book pool time and amenities at luxury hotels</h1>
+      </div>
+      <article class="search">
+        <ul class="search__list">
+          <li class="search__item">
+            <label class="search__radio">
+              <input type="radio" name="product" checked>All
+            </label>
+          </li>
+          <li class="search__item">
+            <label class="search__radio">
+              <input type="radio" name="product">Day Pass
+            </label>
+          </li>
+          <li class="search__item">
+            <label class="search__radio">
+              <input type="radio" name="product">Cabanas
+            </label>
+          </li>
+          <li class="search__item">
+            <label class="search__radio">
+              <input type="radio" name="product">Daybeds
+            </label>
+          </li>
+          <li class="search__item">
+            <label class="search__radio">
+              <input type="radio" name="product">Spa Passes
+            </label>
+          </li>
+          <li class="search__item">
+            <label class="search__radio">
+              <input type="radio" name="product">Fitness
+            </label>
+          </li>
+          <li class="search__item">
+            <label class="search__radio">
+              <input type="radio" name="product">Events
+            </label>
+          </li>
+        </ul>
+        <div class="search__wrapper">
+          <input class="input__text" type="text" placeholder="Los Angeles, CA">
+          <input class="input__text" type="text" placeholder="Jan 12 2009">
+          <input class="input__text" type="text" placeholder="2 guests">
+          <input type="button" value="Find">
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="hotel-logos">
+    <div class="container container--medium hotel-logos__container">
+      <article class="hotel-logos__gallery">
+        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
+        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
+        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
+        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
+        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
+        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
+      </article>
+    </div>
+  </section>
+  <section class="passes">
+    <div class="container container--medium passes__container">
+      <div class="passes__day-pass">
+        <p class="passes__day-pass-text">Most popular</p>
+        <h1 class="passes__day-pass-caption">Day Passes</h1>
+        <input class="passes__day-pass-button" type="button" value="From $15/guest">
+      </div>
+      <div class="passes__cabanas">
+        <p class="passes__cabanas-text">Cabanas</p>
+        <p class="passes__cabanas-text">from $50/guest</p>
+      </div>
+      <div class="passes__spa">
+        <p class="passes__spa-text">Spa passes</p>
+        <p class="passes__spa-text">from $25/guest</p>
+      </div>
+      <div class="passes__daybeds">
+        <p class="passes__daybeds-text">Daybeds</p>
+        <p class="passes__daybeds-text">from $35/guest</p>
+      </div>
+    </div>
+  </section>
+  <script src="js/bundle.js"></script>
 </body>
+
 </html>
