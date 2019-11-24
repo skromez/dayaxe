@@ -17,11 +17,11 @@
           <img src="https://placehold.it/140x32" alt="Logo">
         </a>
       </div>
-      <article class="weather">
-        <img class="weather__icon" src="https://placehold.it/20x20" alt="Weather Icon">
-        <ul class="weather__list">
-          <li class="weather__item">90 °F</li>
-          <li class="weather__item">Sunny</li>
+      <article class="widget">
+        <img class="widget__icon" src="https://placehold.it/20x20" alt="widget Icon">
+        <ul class="widgetr__list">
+          <li class="widget__item">90 °F</li>
+          <li class="widget__item">Sunny</li>
         </ul>
       </article>
       <nav class="main-nav">
@@ -102,25 +102,135 @@
       </article>
     </div>
   </section>
-  <section class="passes">
-    <div class="container container--medium passes__container">
-      <div class="passes__day-pass">
-        <p class="passes__day-pass-text">Most popular</p>
-        <h1 class="passes__day-pass-caption">Day Passes</h1>
-        <input class="passes__day-pass-button" type="button" value="From $15/guest">
-      </div>
-      <div class="passes__cabanas">
-        <p class="passes__cabanas-text">Cabanas</p>
-        <p class="passes__cabanas-text">from $50/guest</p>
-      </div>
-      <div class="passes__spa">
-        <p class="passes__spa-text">Spa passes</p>
-        <p class="passes__spa-text">from $25/guest</p>
-      </div>
-      <div class="passes__daybeds">
-        <p class="passes__daybeds-text">Daybeds</p>
-        <p class="passes__daybeds-text">from $35/guest</p>
-      </div>
+  <section class="pass">
+    <div class="container container--medium pass__container">
+      <h2 class="pass__caption">Ways to daycation</h2>
+      <ul class="pass__list">
+        <li class="pass__item--day-pass">
+          <p class="pass__text">Most popular</p>
+          <h2 class="pass__caption">Day Passes</h2>
+          <input class="pass__item-button" type="button" value="From $15/guest">
+        </li>
+        <li class="pass__item">
+          <p class="pass__text">Cabanas</p>
+          <p class="pass__text">from $50/guest</p>
+        </li>
+        <li class="pass__item">
+          <p class="pass__text">Spa passes</p>
+          <p class="pass__text">from $25/guest</p>
+        </li>
+        <li class="pass__item">
+          <p class="pass__text">Daybeds</p>
+          <p class="pass__text">from $35/guest</p>
+        </li>
+        <li class="pass__item">
+          <p class="pass__text">Fitness</p>
+          <p class="pass__text">from $29/guest</p>
+        </li>
+        <li class="pass__item">
+          <p class="pass__text">Events</p>
+          <p class="pass__text">from $19/guest</p>
+        </li>
+        <li class="pass__item pass__item--gold">
+          <h2 class="pass__caption">Gold Pass</h2>
+          <p class="pass__text">Special monthly premium subscription. Gives you unlimited use daypass.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="featured">
+    <div class="container container--medium featured__container">
+      <h2 class="featured__caption">Featured hotel passes</h2>
+      <ul class="featured__list">
+        <li class="featured__item">
+          <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
+          <h2 class="featured__subtitle">West Beverly Hills</h2>
+          <div class="featured__wrapper">
+            <input type="button" value="Day Pass" class="featured__button">
+            <p class="featured__location">Los Angeles</p>
+            <img src="https://placehold.it/68x12" alt="rating" class="featured__rating">
+            <p class="featured__rating-num">128</p>
+            <p class="featured__price">$25/guest</p>
+          </div>
+        </li>
+        <li class="featured__item">
+          <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
+          <h2 class="featured__subtitle">Marriott Santa Monica Merigot</h2>
+          <div class="featured__wrapper">
+            <input type="button" value="SPA Pass" class="featured__button">
+            <p class="featured__location">Palm Springs</p>
+            <img src="https://placehold.it/68x12" alt="rating" class="featured__rating">
+            <p class="featured__rating-num">65</p>
+            <p class="featured__price">$30/guest</p>
+          </div>
+        </li>
+        <li class="featured__item">
+          <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
+          <h2 class="featured__subtitle">Hollywood Hotel</h2>
+          <div class="featured__wrapper">
+            <input type="button" value="Day Pass" class="featured__button">
+            <p class="featured__location">San Diego</p>
+            <img src="https://placehold.it/68x12" alt="rating" class="featured__rating">
+            <p class="featured__rating-num">1 350</p>
+            <p class="featured__price">$45/guest</p>
+          </div>
+        </li>
+        <li class="featured__item">
+          <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
+          <h2 class="featured__subtitle">Monarch Beach Resort</h2>
+          <div class="featured__wrapper">
+            <input type="button" value="Daybeds" class="featured__button">
+            <p class="featured__location">Los Angeles</p>
+            <img src="https://placehold.it/68x12" alt="rating" class="featured__rating">
+            <p class="featured__rating-num">780</p>
+            <p class="featured__price">$99/guest</p>
+          </div>
+        </li>
+        <li class="featured__item">
+          <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
+          <h2 class="featured__subtitle">Pasea Hotel & Spa</h2>
+          <div class="featured__wrapper">
+            <input type="button" value="Day Pass" class="featured__button">
+            <p class="featured__location">San Diego, CA</p>
+            <img src="https://placehold.it/68x12" alt="rating" class="featured__rating">
+            <p class="featured__rating-num">5</p>
+            <p class="featured__price">$20/guest</p>
+          </div>
+        </li>
+        <li class="featured__item">
+          <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
+          <h2 class="featured__subtitle">Hyatt Regency Newport Beach</h2>
+          <div class="featured__wrapper">
+            <input type="button" value="SPA Pass" class="featured__button">
+            <p class="featured__location">Palm Springs</p>
+            <img src="https://placehold.it/68x12" alt="rating" class="featured__rating">
+            <p class="featured__rating-num">799</p>
+            <p class="featured__price">$15/guest</p>
+          </div>
+        </li>
+        <li class="featured__item">
+          <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
+          <h2 class="featured__subtitle">Balboa Bay Resort</h2>
+          <div class="featured__wrapper">
+            <input type="button" value="Daybeds" class="featured__button">
+            <p class="featured__location">San Diego</p>
+            <img src="https://placehold.it/68x12" alt="rating" class="featured__rating">
+            <p class="featured__rating-num">100</p>
+            <p class="featured__price">$15/guest</p>
+          </div>
+        </li>
+        <li class="featured__item">
+          <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
+          <h2 class="featured__subtitle">DoubleTree by Hilton Hotel</h2>
+          <div class="featured__wrapper">
+            <input type="button" value="Cabanas" class="featured__button">
+            <p class="featured__location">Los Angeles</p>
+            <img src="https://placehold.it/68x12" alt="rating" class="featured__rating">
+            <p class="featured__rating-num">12 568</p>
+            <p class="featured__price">$60/guest</p>
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
   <script src="js/bundle.js"></script>
