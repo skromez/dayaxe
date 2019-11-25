@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <div class="container container--wide header__container">
       <div class="header__logo">
         <a href="#">
@@ -19,7 +19,7 @@
       </div>
       <article class="widget">
         <img class="widget__icon" src="https://placehold.it/20x20" alt="widget Icon">
-        <ul class="widgetr__list">
+        <ul class="widget__list">
           <li class="widget__item">90 °F</li>
           <li class="widget__item">Sunny</li>
         </ul>
@@ -39,7 +39,7 @@
   </header>
   <section class="promo">
     <div class="container container--medium promo__container">
-      <div class="promo__caption">
+      <div class="promo__heading">
         <h1>Book pool time and amenities at luxury hotels</h1>
       </div>
       <article class="search">
@@ -80,12 +80,12 @@
             </label>
           </li>
         </ul>
-        <div class="search__wrapper">
-          <input class="input__text" type="text" placeholder="Los Angeles, CA">
-          <input class="input__text" type="text" placeholder="Jan 12 2009">
-          <input class="input__text" type="text" placeholder="2 guests">
-          <input type="button" value="Find">
-        </div>
+        <form class="input-form">
+          <input class="input-form__text" type="text" placeholder="Los Angeles, CA">
+          <input class="input-form__text" type="text" placeholder="Jan 12 2009">
+          <input class="input-form__text" type="text" placeholder="2 guests">
+          <button class="input-form__button" type="submit">Find</button>
+        </form>
       </article>
     </div>
   </section>
@@ -104,11 +104,11 @@
   </section>
   <section class="pass">
     <div class="container container--medium pass__container">
-      <h2 class="pass__caption">Ways to daycation</h2>
+      <h2 class="pass__heading">Ways to daycation</h2>
       <ul class="pass__list">
-        <li class="pass__item--day-pass">
+        <li class="pass__item pass__item--day-pass">
           <p class="pass__text">Most popular</p>
-          <h2 class="pass__caption">Day Passes</h2>
+          <h3 class="pass__heading">Day Passes</h3>
           <input class="pass__item-button" type="button" value="From $15/guest">
         </li>
         <li class="pass__item">
@@ -132,7 +132,7 @@
           <p class="pass__text">from $19/guest</p>
         </li>
         <li class="pass__item pass__item--gold">
-          <h2 class="pass__caption">Gold Pass</h2>
+          <h3 class="pass__heading">Gold Pass</h3>
           <p class="pass__text">Special monthly premium subscription. Gives you unlimited use daypass.</p>
         </li>
       </ul>
@@ -140,11 +140,11 @@
   </section>
   <section class="featured">
     <div class="container container--medium featured__container">
-      <h2 class="featured__caption">Featured hotel passes</h2>
+      <h2 class="featured__heading">Featured hotel passes</h2>
       <ul class="featured__list">
         <li class="featured__item">
           <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
-          <h2 class="featured__subtitle">West Beverly Hills</h2>
+          <h3 class="featured__subtitle">West Beverly Hills</h3>
           <div class="featured__wrapper">
             <input type="button" value="Day Pass" class="featured__button">
             <p class="featured__location">Los Angeles</p>
@@ -155,7 +155,7 @@
         </li>
         <li class="featured__item">
           <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
-          <h2 class="featured__subtitle">Marriott Santa Monica Merigot</h2>
+          <h3 class="featured__subtitle">Marriott Santa Monica Merigot</h3>
           <div class="featured__wrapper">
             <input type="button" value="SPA Pass" class="featured__button">
             <p class="featured__location">Palm Springs</p>
@@ -166,7 +166,7 @@
         </li>
         <li class="featured__item">
           <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
-          <h2 class="featured__subtitle">Hollywood Hotel</h2>
+          <h3 class="featured__subtitle">Hollywood Hotel</h3>
           <div class="featured__wrapper">
             <input type="button" value="Day Pass" class="featured__button">
             <p class="featured__location">San Diego</p>
@@ -177,7 +177,7 @@
         </li>
         <li class="featured__item">
           <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
-          <h2 class="featured__subtitle">Monarch Beach Resort</h2>
+          <h3 class="featured__subtitle">Monarch Beach Resort</h3>
           <div class="featured__wrapper">
             <input type="button" value="Daybeds" class="featured__button">
             <p class="featured__location">Los Angeles</p>
@@ -188,7 +188,7 @@
         </li>
         <li class="featured__item">
           <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
-          <h2 class="featured__subtitle">Pasea Hotel & Spa</h2>
+          <h3 class="featured__subtitle">Pasea Hotel & Spa</h3>
           <div class="featured__wrapper">
             <input type="button" value="Day Pass" class="featured__button">
             <p class="featured__location">San Diego, CA</p>
@@ -199,7 +199,7 @@
         </li>
         <li class="featured__item">
           <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
-          <h2 class="featured__subtitle">Hyatt Regency Newport Beach</h2>
+          <h3 class="featured__subtitle">Hyatt Regency Newport Beach</h3>
           <div class="featured__wrapper">
             <input type="button" value="SPA Pass" class="featured__button">
             <p class="featured__location">Palm Springs</p>
@@ -210,7 +210,7 @@
         </li>
         <li class="featured__item">
           <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
-          <h2 class="featured__subtitle">Balboa Bay Resort</h2>
+          <h3 class="featured__subtitle">Balboa Bay Resort</h3>
           <div class="featured__wrapper">
             <input type="button" value="Daybeds" class="featured__button">
             <p class="featured__location">San Diego</p>
@@ -221,7 +221,7 @@
         </li>
         <li class="featured__item">
           <img src="https://placehold.it/258x180" alt="" class="featured__thumb">
-          <h2 class="featured__subtitle">DoubleTree by Hilton Hotel</h2>
+          <h3 class="featured__subtitle">DoubleTree by Hilton Hotel</h3>
           <div class="featured__wrapper">
             <input type="button" value="Cabanas" class="featured__button">
             <p class="featured__location">Los Angeles</p>
@@ -233,6 +233,150 @@
       </ul>
     </div>
   </section>
+  <section class="works">
+    <div class="container container--medium works__container">
+      <h2 class="works__heading">How it works?</h2>
+      <ul class="works__list">
+        <li class="works__item">
+          <div class="works__caption">
+            <h3 class="works__title">Book your ticket</h3>
+            <p class="works__desc">Browse our list of resorts in your area. We are adding new resorts every month.</p>
+            <button class="works__button" type="button">Book now</button>
+          </div>
+        </li>
+        <li class="works__item">
+          <div class="works__caption">
+            <h3 class="works__title">Check-in at hotel</h3>
+            <p class="works__desc">Select a date and book a day pass, spa pass, or cabana.</p>
+            <button class="works__button" type="button">Our hotels</button>
+          </div>
+        </li>
+        <li class="works__item">
+          <div class="works__caption">
+            <h3 class="works__title">Enjoy your time</h3>
+            <p class="works__desc">Check-in at the hotel and enjoy your daycation! Swim, relax, eat, drink, and play.
+            </p>
+            <button class="works__button" type="button">Our Experiences</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="moments">
+    <div class="container container--medium moments__container">
+      <header class="moments__header">
+        <h2 class="moments__heading">#DayAxe Moments</h2>
+        <button class="moments__more" type="button">More</button>
+      </header>
+      <p class="moments__text">Share moments from your own day stay. Mention @dayaxeapp on Instagram for a chance to be
+        featured!</p>
+      <div class="moments__gallery">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+        <img src="https://placehold.it/188x188" alt="Photo" class="moments__photo">
+      </div>
+    </div>
+  </section>
+  <section class="promotions">
+    <div class="container container--medium promotions__container">
+      <h2 class="promotions__heading">Our promotions</h2>
+      <ul class="promotions__list">
+        <li class="promotions__item">
+          <img src="https://placehold.it/356x200" alt="Coctails" class="promotions__thumb">
+          <div class="promotions__caption">
+            <h3 class="promotions__subtitle">Ho-ho-ho! Xmas cocktail party!</h3>
+            <p class="promotions__text">All tickets from December 20
+              to January 5 at a 10% discount!</p>
+          </div>
+        </li>
+        <li class="promotions__item">
+          <img src="https://placehold.it/356x200" alt="Girl" class="promotions__thumb">
+          <div class="promotions__caption">
+            <h3 class="promotions__subtitle">One FREE Gold ticket per your selfie!/h3>
+              <p class="promotions__text">Take a selfie with the tag #dayaxe and get a chance to win Gold</p>
+          </div>
+        </li>
+        <li class="promotions__item">
+          <img src="https://placehold.it/356x200" alt="Girl" class="promotions__thumb">
+          <div class="promotions__caption">
+            <h3 class="promotions__subtitle">Get a 10% discount
+              for your e-mail</h3>
+            <p class="promotions__text">Sign up with us and get a 10% discount. Thank!</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container container-medium footer__container">
+      <div class="footer_wrapper">
+        <div class="footer-dayaxe">
+          <h2 class="footer-dayaxe__title">Dayaxe</h2>
+          <ul class="footer-dayaxe__list">
+            <li class="footer-dayaxe__item">How it Works</li>
+            <li class="footer-dayaxe__item">About Us</li>
+            <li class="footer-dayaxe__item">Press</li>
+            <li class="footer-dayaxe__item">Help</li>
+            <li class="footer-dayaxe__item">Blog</li>
+          </ul>
+        </div>
+        <div class="footer-discover">
+          <h2 class="footer-discover-title">Discover</h2>
+          <ul class="footer-discover-list">
+            <li class="footer-discover__item">Gold Pass</li>
+            <li class="footer-discover__item">Gift Card</li>
+            <li class="footer-discover__item">Free Daycations</li>
+            <li class="footer-discover__item">Cities</li>
+            <li class="footer-discover__item">Resorts</li>
+          </ul>
+        </div>
+        <div class="footer-partners">
+          <h2 class="footer-partners__title">Partners</h2>
+          <ul class="footer-partners__list">
+            <li class="footer-partners__item">Why Dayaxe?</li>
+            <li class="footer-partners__item">Partner Login</li>
+            <li class="footer-partners__item">Partner Signup</li>
+            <li class="footer-partners__item">Refer Hotel</li>
+          </ul>
+        </div>
+        <div class="footer-resorts-offers">
+          <h2 class="footer-resorts-offers__title">New resorts launched & special offers</h2>
+          <ul class="footer-resorts-offers__list">
+            <form class="footer-input-form">
+              <input class="footer-input-form__text" type="email" name="email" placeholder="Enter email...">
+              <button class="footer-input-form__button" type="submit">Sign Up</button>
+            </form>
+            <p class="footer-resorts-offers__text">+15% off promo</p>
+          </ul>
+          <div class="footer-resorts-offers__socialmedia">
+            <img src="https://placehold.it/10x10" alt="Fb" class="footer-resorts-offers__icon">
+            <img src="https://placehold.it/10x10" alt="Inst" class="footer-resorts-offers__icon">
+            <img src="https://placehold.it/10x10" alt="Vimeo" class="footer-resorts-offers__icon">
+            <img src="https://placehold.it/10x10" alt="LinkedIn" class="footer-resorts-offers__icon">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyrights">
+      <div class="container footer-copyrights__container">
+        <p class="footer-copyrights__text">© 2018 Dayaxe.  All rights reserved.</p>
+        <ul class="footer-copyrights__lits">
+          <li class="footer-copyrights__item"><a class="footer-copyrights__link" href="#">Terms</a></li>
+          <li class="footer-copyrights__item"><a class="footer-copyrights__link" href="#">Privacy</a></li>
+          <li class="footer-copyrights__item"><a class="footer-copyrights__link" href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
   <script src="js/bundle.js"></script>
 </body>
 
