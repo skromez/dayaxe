@@ -1,0 +1,24 @@
+.promo {
+  background-image: url("../../img/promo/promo-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  padding-bottom: 140px;
+}
+
+.promo__container {
+  position: relative;
+  padding-top: 235px;
+}
+
+.promo__heading {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+
+  max-width: 430px;
+
+  color: #ffffff;
+}

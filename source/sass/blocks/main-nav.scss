@@ -1,0 +1,41 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 1339px) {
+    display: none;
+  }
+}
+
+.main-nav__list {
+  display: flex;
+}
+
+.main-nav__item {
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 70px;
+  }
+}
+
+.main-nav__link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.main-nav__button {
+  display: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+
+  @media (max-width: 1339px) {
+    display: inline-block;
+  }
+}
+
+.main-nav__burger {
+  display: inline-block;
+}

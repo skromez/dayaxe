@@ -13,12 +13,12 @@
   <header class="header">
     <div class="container container--wide header__container">
       <div class="header__logo">
-        <a href="#">
-          <img src="https://placehold.it/140x32" alt="Logo">
+        <a class="header__link" href="#">
+          <img src="./img/header/logo.svg" alt="Logo">
         </a>
       </div>
       <article class="widget">
-        <img class="widget__icon" src="https://placehold.it/20x20" alt="widget Icon">
+        <img class="widget__icon" src="./img//header/circle.png" alt="widget Icon">
         <ul class="widget__list">
           <li class="widget__item">90 °F</li>
           <li class="widget__item">Sunny</li>
@@ -32,58 +32,74 @@
         </ul>
       </nav>
       <div class="user">
-        <a href="#">
-          <img class="user__avatar" src="https://placehold.it/40x40" alt="User Avatar">
+        <a class="user__link" href="#">
+          <img class="user__avatar" src="./img/header/profilepic.png" alt="User Avatar">
           <p class="user__name">Roboin Bobin B.</p>
         </a>
       </div>
+      <button class="main-nav__button" type="button">
+        <img class="main-nav__burger" src="./img/header/burger-menu.svg" alt="burger">
+      </button>
     </div>
   </header>
   <section class="promo">
     <div class="container container--medium promo__container">
-      <h1>Book pool time and amenities at luxury hotels</h1>
+      <h1 class="promo__heading">Book pool time and amenities at luxury hotels</h1>
       <article class="search">
         <ul class="search__list">
           <li class="search__item">
-            <label class="search__radio">
-              <input type="radio" name="product" value="All" checked>All
+            <input id="all" type="radio" name="product" value="All" checked>
+            <label for="all" class="search__radio">
+              All
             </label>
           </li>
           <li class="search__item">
-            <label class="search__radio">
-              <input type="radio" name="product" value="Day Pass">Day Pass
+            <input id="daypass" type="radio" name="product" value="Day Pass">
+            <label for="daypass" class="search__radio">
+              Day Pass
             </label>
           </li>
           <li class="search__item">
-            <label class="search__radio">
-              <input type="radio" name="product" value="Cabanas">Cabanas
+            <input id="cabanas" type="radio" name="product" value="Cabanas">
+            <label for="cabanas" class="search__radio">
+              Cabanas
             </label>
           </li>
           <li class="search__item">
-            <label class="search__radio">
-              <input type="radio" name="product" value="Daybeds">Daybeds
+            <input id="daybeds" type="radio" name="product" value="Daybeds">
+            <label for="daybeds" class="search__radio">
+              Daybeds
             </label>
           </li>
           <li class="search__item">
-            <label class="search__radio">
-              <input type="radio" name="product" value="Spa Passes">Spa Passes
+            <input id="spapasses" type="radio" name="product" value="Spa Passes">
+            <label for="spapasses" class="search__radio">
+              Spa Passes
             </label>
           </li>
           <li class="search__item">
-            <label class="search__radio">
-              <input type="radio" name="product" value="Fitness">Fitness
+            <input id="fitness" type="radio" name="product" value="Fitness">
+            <label for="fitness" class="search__radio">
+              Fitness
             </label>
           </li>
           <li class="search__item">
-            <label class="search__radio">
-              <input type="radio" name="product" value="Events">Events
+            <input id="events" type="radio" name="product" value="Events">
+            <label for="events" class="search__radio">
+              Events
             </label>
           </li>
         </ul>
         <form class="input-form">
-          <input class="input-form__text" type="text" placeholder="Los Angeles, CA">
-          <input class="input-form__text" type="text" placeholder="Jan 12 2009">
-          <input class="input-form__text" type="text" placeholder="2 guests">
+          <div class="input-form__wrapper">
+            <input class="input-form__text" type="text" placeholder="Los Angeles, CA">
+          </div>
+          <div class="input-form__wrapper">
+            <input class="input-form__text" type="text" placeholder="Jan 12 2009">
+          </div>
+          <div class="input-form__wrapper">
+            <input class="input-form__text" type="text" placeholder="2 guests">
+          </div>
           <button class="input-form__button" type="submit">Find</button>
         </form>
       </article>
