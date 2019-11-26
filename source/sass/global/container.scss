@@ -6,20 +6,16 @@
   &--wide {
     max-width: 1440px;
 
-    @media (max-width: 1339px) {
-      max-width: 768px;
+    @media (max-width: 767px) {
+      padding: 0 24px;
     }
   }
 
   &--medium {
     max-width: 1210px;
 
-    @media (max-width: 1339px) {
-      max-width: 768px;
-    }
-
     @media (max-width: 767px) {
-      max-width: 320px;
+      padding: 0 24px;
     }
   }
 }

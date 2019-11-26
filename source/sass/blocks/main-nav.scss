@@ -34,6 +34,10 @@
   @media (max-width: 1339px) {
     display: inline-block;
   }
+
+  @media (max-width: 767px) {
+    margin-left: auto;
+  }
 }
 
 .main-nav__burger {

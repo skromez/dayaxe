@@ -1,23 +1,28 @@
 .input-form {
-  margin-top: 15px;
-
   background: #ffffff;
   min-height: 80px;
   border-radius: 100px;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 0.5fr;
+  display: flex;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    border-radius: 6px;
+    padding-bottom: 15px;
+  }
 }
 
 .input-form__text {
   border: none;
   background: transparent;
 
-  margin-left: 35px;
-
-
   font-size: 18px;
   line-height: 18px;
   color: var(--gray-color);
+  margin-left: 30px;
+
+  @media (max-width: 767px) {
+    margin-left: 0;
+  }
 }
 
 .input-form__wrapper {
@@ -25,30 +30,107 @@
 
   position: relative;
 
-  &:not(:first-child) {
-    &::before {
-      content: url("../../img/promo/linebreak.svg");
+  @media (max-width: 767px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+  }
+
+  &--city {
+    width: calc(470 / 1130 * 100%);
+
+    @media (max-width: 1339px) {
+      width: calc(245 / 688 * 100%);
+    }
+
+    @media (max-width: 767px) {
+      width: calc(272 / 272 * 100%);
+    }
+
+    &::after {
+      content: url("../../img/promo/location.svg");
       position: absolute;
+      right: 27px;
       top: 50%;
       transform: translateY(-50%);
+    }
+  }
+
+  &--date {
+    width: calc(250 / 1130 * 100%);
+
+    @media (max-width: 1339px) {
+      width: calc(200 / 688 * 100%);
+    }
+
+    @media (max-width: 767px) {
+      width: calc(272 / 272 * 100%);
+    }
+
+    &::before {
+      content: "";
+      height: 40px; //You can change this if you want smaller/bigger borders
+      width: 2px;
+
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #f5f5f5;
+
+      @media (max-width: 767px) {
+        left: 50%;
+        transform: translateX(-50%);
+        height: 2px;
+        width: 92%;
+        top: 0;
+      }
     }
 
     &::after {
       position: absolute;
-      right: 30px;
+      right: 27px;
       top: 50%;
       transform: translateY(-50%);
       content: url("../../img/promo/dropdown.svg");
     }
   }
 
-  &:first-child {
-    &::after {
-      content: url("../../img/promo/location.svg");
+  &--guest {
+    @media (max-width: 1339px) {
+      width: calc(175 / 688 * 100%);
+    }
+
+    @media (max-width: 767px) {
+      width: calc(272 / 272 * 100%);
+    }
+
+    &::before {
+      content: "";
+      height: 40px; //You can change this if you want smaller/bigger borders
+      width: 2px;
+
       position: absolute;
-      right: 30px;
+      left: 0;
       top: 50%;
       transform: translateY(-50%);
+      background-color: #f5f5f5; // The color of your border
+
+      @media (max-width: 767px) {
+        left: 50%;
+        transform: translateX(-50%);
+        height: 2px;
+        width: 92%;
+        top: 0;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      right: 27px;
+      top: 50%;
+      transform: translateY(-50%);
+      content: url("../../img/promo/dropdown.svg");
     }
   }
 }
@@ -64,9 +146,49 @@
   font-weight: 700;
 
   align-self: center;
-  min-width: 136px;
 
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-right: 10px;
+  padding: 27px 51px;
+  margin-left: 15px;
+
+  &-text {
+    &--hidden {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1339px) {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+
+    &-text {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    margin: 0 auto;
+    padding: 20px 42px;
+
+    &-text {
+      display: inline-block;
+
+      &--hidden {
+        display: inline-block;
+      }
+    }
+  }
+
+  &::after {
+    content: url("../../img/promo/search.svg");
+    display: none;
+
+    @media (max-width: 1339px) {
+      display: inline-block;
+    }
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
 }

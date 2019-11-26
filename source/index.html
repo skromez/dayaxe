@@ -91,16 +91,19 @@
           </li>
         </ul>
         <form class="input-form">
-          <div class="input-form__wrapper">
+          <div class="input-form__wrapper input-form__wrapper--city">
             <input class="input-form__text" type="text" placeholder="Los Angeles, CA">
           </div>
-          <div class="input-form__wrapper">
+          <div class="input-form__wrapper input-form__wrapper--date">
             <input class="input-form__text" type="text" placeholder="Jan 12 2009">
           </div>
-          <div class="input-form__wrapper">
+          <div class="input-form__wrapper input-form__wrapper--guest">
             <input class="input-form__text" type="text" placeholder="2 guests">
           </div>
-          <button class="input-form__button" type="submit">Find</button>
+          <button class="input-form__button" type="submit">
+            <p class="input-form__button-text">Find <span class="input-form__button-text--hidden">Your Day Pass</span>
+            </p>
+          </button>
         </form>
       </article>
     </div>
@@ -108,14 +111,32 @@
 
   <section class="hotel-logos">
     <div class="container container--medium hotel-logos__container">
-      <article class="hotel-logos__gallery">
-        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
-        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
-        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
-        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
-        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
-        <img class="hotel-logos__thumb" src="https://placehold.it/141x120" alt="Hotel">
-      </article>
+      <ul class="hotel-logos__list">
+        <li class="hotel-logos__item">
+          <img class="hotel-logos__thumb" src="./img/hotel-logo/logo1.png" alt="Hotel">
+        </li>
+        <li class="hotel-logos__item">
+          <img class="hotel-logos__thumb" src="./img/hotel-logo/logo2.png" alt="Hotel">
+        </li>
+        <li class="hotel-logos__item">
+          <img class="hotel-logos__thumb" src="./img/hotel-logo/logo3.png" alt="Hotel">
+        </li>
+        <li class="hotel-logos__item">
+          <img class="hotel-logos__thumb" src="./img/hotel-logo/logo4.png" alt="Hotel">
+        </li>
+        <li class="hotel-logos__item">
+          <img class="hotel-logos__thumb" src="./img/hotel-logo/logo5.png" alt="Hotel">
+        </li>
+        <li class="hotel-logos__item">
+          <img class="hotel-logos__thumb" src="./img/hotel-logo/logo6.png" alt="Hotel">
+        </li>
+        <li class="hotel-logos__item">
+          <img class="hotel-logos__thumb" src="./img/hotel-logo/logo7.png" alt="Hotel">
+        </li>
+        <li class="hotel-logos__item">
+          <img class="hotel-logos__thumb" src="./img/hotel-logo/logo8.png" alt="Hotel">
+        </li>
+      </ul>
     </div>
   </section>
   <section class="pass">

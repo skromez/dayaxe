@@ -1,32 +1,35 @@
 .search {
   margin-top: 100px;
+
+  @media (max-width: 767px) {
+    margin-top: 25px;
+  }
 }
 
 .search__list {
   display: flex;
+  padding: 15px 0;
+
+  overflow-x: auto;
 }
 
 .search__item {
   color: var(--gray-color);
   background: #ffffff;
 
-  max-width: 115px;
-  min-width: 45px;
-  min-height: 30px;
 
   margin-right: 5px;
 
   border-radius: 100px;
 
   display: flex;
+  flex-shrink: 0;
   align-items: center;
 }
 
 .search__radio {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  cursor: pointer;
+  padding: 5px 15px;
 }
 
 input[type="radio"] {

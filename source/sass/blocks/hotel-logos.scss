@@ -1,0 +1,13 @@
+.hotel-logos__list {
+  display: flex;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.hotel-logos__item {
+  width: calc(140 / 1130 * 100%);
+  justify-content: center;
+}
+
+.hotel-logos__thumb {
+  width: 100%;
+}

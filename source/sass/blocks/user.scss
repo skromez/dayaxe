@@ -2,6 +2,10 @@
   @media (max-width: 1339px) {
     margin-right: 40px;
   }
+
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 
 .user__link {
