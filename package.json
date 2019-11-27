@@ -31,5 +31,8 @@
     "stylelint": "^12.0.0",
     "terser-webpack-plugin": "^2.2.1",
     "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "swiper": "^5.2.1"
   }
 }

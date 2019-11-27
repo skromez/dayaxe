@@ -463,44 +463,61 @@
   </section>
   <section class="promotions">
     <div class="container container--medium promotions__container">
-      <h2 class="promotions__heading">Our promotions</h2>
-      <ul class="promotions__list">
-        <li class="promotions__item">
-          <a class="promotions__link" href="#">
-            <div class="promotions__wrapper">
-              <img src="https://placehold.it/356x200" alt="Coctails" class="promotions__thumb">
-            </div>
-            <div class="promotions__caption">
-              <h3 class="promotions__subtitle">Ho-ho-ho! Xmas cocktail party!</h3>
-              <p class="promotions__text">All tickets from December 20
-                to January 5 at a 10% discount!</p>
-            </div>
-          </a>
-        </li>
-        <li class="promotions__item">
-          <a class="promotions__link" href="#">
-            <div class="promotions__wrapper">
-              <img src="https://placehold.it/356x200" alt="Coctails" class="promotions__thumb">
-            </div>
-            <div class="promotions__caption">
-              <h3 class="promotions__subtitle">One FREE Gold ticket per your selfie!</h3>
-              <p class="promotions__text">Take a selfie with the tag #dayaxe and get a chance to win Gold</p>
-            </div>
-          </a>
-        </li>
-        <li class="promotions__item">
-          <a class="promotions__link" href="#">
-            <div class="promotions__wrapper">
-              <img src="https://placehold.it/356x200" alt="Coctails" class="promotions__thumb">
-            </div>
-            <div class="promotions__caption">
-              <h3 class="promotions__subtitle">Get a 10% discount
-                for your e-mail</h3>
-              <p class="promotions__text">Sign up with us and get a 10% discount. Thank!</p>
-            </div>
-          </a>
-        </li>
-      </ul>
+      <h2 class="heading">Our <span>promotions</span></h2>
+      <button type="button" class="promotions__button promotions__button--left">
+        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="40" height="40" rx="20" stroke="#1EB6FF" stroke-width="2" />
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M23 16L17 21L23 26V16Z" fill="#1EB6FF" stroke="#1EB6FF"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <button type="button" class="promotions__button promotions__button--right">
+        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="40" height="40" rx="20" stroke="#1EB6FF" stroke-width="2" />
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M23 16L17 21L23 26V16Z" fill="#1EB6FF" stroke="#1EB6FF"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <div class="swiper-container">
+        <ul class="swiper-wrapper promotions__list">
+          <li class="promotions__item swiper-slide">
+            <a class="promotions__link" href="#">
+              <div class="promotions__wrapper">
+                <img src="./img/promotions/cocktail.jpg" alt="Coctails" class="promotions__thumb">
+              </div>
+              <div class="promotions__caption">
+                <h3 class="promotions__subtitle">Ho-ho-ho! Xmas cocktail party!</h3>
+                <p class="promotions__text">All tickets from December 20
+                  to January 5 at a 10% discount!</p>
+              </div>
+            </a>
+          </li>
+          <li class="promotions__item swiper-slide">
+            <a class="promotions__link" href="#">
+              <div class="promotions__wrapper">
+                <img src="./img/promotions/selfie.jpg" alt="Coctails" class="promotions__thumb">
+              </div>
+              <div class="promotions__caption">
+                <h3 class="promotions__subtitle">One FREE Gold ticket per your selfie!</h3>
+                <p class="promotions__text">Take a selfie with the tag #dayaxe and get a chance to win Gold</p>
+              </div>
+            </a>
+          </li>
+          <li class="promotions__item swiper-slide">
+            <a class="promotions__link" href="#">
+              <div class="promotions__wrapper">
+                <img src="./img/promotions/discount.jpg" alt="Coctails" class="promotions__thumb">
+              </div>
+              <div class="promotions__caption">
+                <h3 class="promotions__subtitle">Get a 10% discount
+                  for your e-mail</h3>
+                <p class="promotions__text">Sign up with us and get a 10% discount. Thank!</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </div>
   </section>
   <footer class="footer">
