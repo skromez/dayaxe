@@ -8,7 +8,6 @@ const mySwiper = new Swiper('.swiper-container', {
     nextEl: '.promotions__button--right',
     prevEl: '.promotions__button--left',
   },
-  centeredSlides: true,
   breakpoints: {
     768: {
       slidesPerView: 2,
