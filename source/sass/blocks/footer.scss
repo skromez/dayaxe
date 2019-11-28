@@ -77,7 +77,6 @@
   @media (max-width: 767px) {
     margin-top: 10px;
   }
-
 }
 
 .footer-resorts-offers__wrapper {
@@ -113,7 +112,6 @@
 
   color: var(--gray-color);
   opacity: 0.5;
-
 }
 
 .footer-input-form__button {
@@ -131,5 +129,41 @@
 
   @media (max-width: 767px) {
     width: 30%;
+  }
+}
+
+.footer-copyrights {
+  background: var(--gray-color);
+}
+
+.footer-copyrights__container {
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+
+  font-size: 16px;
+  line-height: 1;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.footer-copyrights__list {
+  display: flex;
+}
+
+.footer-copyrights__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  :hover {
+    text-decoration: underline;
   }
 }

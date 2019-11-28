@@ -8,6 +8,8 @@
   display: flex;
   width: calc(140 / 1130 * 100%);
   justify-content: center;
+
+  pointer-events: none;
   user-select: none;
 }
 

@@ -43,6 +43,10 @@
   padding: 25px 40px 35px 40px;
 
   height: 180px;
+
+  @media (max-width: 767px) {
+    height: 235px;
+  }
 }
 
 .promotions__subtitle {
@@ -66,9 +70,6 @@
   background: transparent;
   display: inline-block;
   padding: 0;
-
-  @media (max-width: 1339px) {
-  }
 
   cursor: pointer;
 
@@ -98,7 +99,7 @@
       transform: none;
       left: auto;
       right: 110px;
-      top: -11px
+      top: -11px;
     }
 
     @media (max-width: 767px) {
