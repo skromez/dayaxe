@@ -1,0 +1,29 @@
+.footer-nav {
+  @media (max-width: 767px) {
+    &:not(:first-child) {
+      margin-top: 40px;
+    }
+  }
+}
+
+.footer-nav__title {
+  color: var(--blue-color);
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.footer-nav__list {
+  margin-top: 25px;
+  min-width: 195px;
+  margin-right: 30px;
+}
+
+.footer-nav__item {
+  margin-top: 15px;
+
+  font-size: 16px;
+  line-height: 1;
+
+  color: var(--gray-color);
+}

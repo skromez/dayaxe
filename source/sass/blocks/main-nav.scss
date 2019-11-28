@@ -9,14 +9,11 @@
 
 .main-nav__list {
   display: flex;
+  margin-right: 70px;
 }
 
 .main-nav__item {
   margin-right: 40px;
-
-  &:last-child {
-    margin-right: 70px;
-  }
 }
 
 .main-nav__link {
@@ -30,13 +27,17 @@
   background: transparent;
   border: none;
   padding: 0;
+  position: absolute;
+
 
   @media (max-width: 1339px) {
     display: inline-block;
+    right: 40px;
   }
 
   @media (max-width: 767px) {
     margin-left: auto;
+    right: 24px;
   }
 }
 

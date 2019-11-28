@@ -125,28 +125,16 @@
   border-bottom-right-radius: 6px;
   border-top-left-radius: 6px;
 
-  &--festive {
+  &--red {
     background: #ff6f5a;
-
-    &::before {
-      content: "Festive";
-    }
   }
 
-  &--family {
+  &--blue {
     background: var(--blue-color);
-
-    &::before {
-      content: "Family";
-    }
   }
 
-  &--tranquil {
+  &--green {
     background: #11d17d;
-
-    &::before {
-      content: "Tranquil";
-    }
   }
 }
 
