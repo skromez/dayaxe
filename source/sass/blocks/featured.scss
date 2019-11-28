@@ -1,3 +1,8 @@
+.featured {
+  background: #f8f8f8;
+  box-shadow: 0 335px 0 0 #f8f8f8, 0 -200px 0 0 #f8f8f8;
+}
+
 .featured__container {
   margin-top: 100px;
   position: relative;
@@ -39,7 +44,6 @@
 .featured__thumb {
   border-radius: 6px;
   position: relative;
-
 
   width: 100%; //delete for no shirnking
 
@@ -120,7 +124,6 @@
   line-height: 1;
   padding: 5px 10px;
   font-weight: 700;
-
 
   border-bottom-right-radius: 6px;
   border-top-left-radius: 6px;

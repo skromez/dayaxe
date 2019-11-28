@@ -6,10 +6,6 @@ const partners = new Swiper('.swiper-partners', {
   slidesPerGroup: 3,
   loop: true,
   allowTouchMove: true,
-  navigation: {
-    nextEl: '.promotions__button--right',
-    prevEl: '.promotions__button--left',
-  },
   pagination: {
     el: '.partners-pagination',
     clickable: true,
