@@ -1,21 +1,3 @@
 import Swiper from 'swiper';
-
-const mySwiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
-  spaceBetween: 0,
-  loop: true,
-  navigation: {
-    nextEl: '.promotions__button--right',
-    prevEl: '.promotions__button--left',
-  },
-  breakpoints: {
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-    1339: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-  },
-});
+import promotions from './promotions';
+import partners from './partners';
