@@ -26,4 +26,8 @@
   line-height: 1;
 
   color: var(--gray-color);
+
+  :hover {
+    text-decoration: underline;
+  }
 }
