@@ -1,10 +1,8 @@
 const button = document.querySelector('.main-nav__button');
 const list = document.querySelector('.main-nav__list');
-const line = document.querySelectorAll('.main-nav__line');
 
 button.addEventListener('click', () => {
   list.classList.toggle('main-nav__list--menu');
-  line.classList.toggle('main-nav__line--cross');
 });
 /*
 1. Взять через querySelector кнопку
