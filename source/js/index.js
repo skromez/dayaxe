@@ -1,3 +1,3 @@
-const func = () => console.log('works too!');
-
-func();
+import Swiper from 'swiper';
+import promotions from './promotions';
+import partners from './partners';

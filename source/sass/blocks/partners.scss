@@ -1,0 +1,39 @@
+.partners__container {
+  .swiper-container {
+    border-bottom: 2px solid #f5f5f5;
+  }
+}
+
+.partners__item {
+  display: flex;
+  width: calc(140 / 1130 * 100%);
+  justify-content: center;
+
+  pointer-events: none;
+  user-select: none;
+}
+
+.partners__thumb {
+  width: 100%;
+}
+
+.partners-pagination {
+  display: none;
+
+  @media (max-width: 767px) {
+    display: block;
+
+    .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+
+      background: #ffffff;
+      border: 2px solid #ccacac;
+
+      &-active {
+        background: var(--blue-color);
+        border: 2px solid var(--blue-color);
+      }
+    }
+  }
+}
